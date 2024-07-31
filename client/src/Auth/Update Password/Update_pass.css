@@ -1,0 +1,130 @@
+.uphd{
+    margin-top: 130px;
+    margin-right: 60px;
+}
+.pwdframe{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.Cpwd{
+        width: 250px;
+        height: 25px;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid  #53C352;
+        border-radius: 10px;
+        text-align:left;
+        color: #959595;
+        margin-top: 20px;
+}
+.pwdbtn{
+            margin-top: 20px;
+            width: 270px;
+            height: 45px;
+            border: none;
+            border-radius: 10px;
+            background-color:#53C352; 
+            color: white; 
+            cursor: pointer;
+}
+.pwdimg{
+    margin-top: 170px;
+    margin-right: 40px;
+    width: 400px;
+    align-items: center;
+}
+ /* media query */
+
+ @media (max-width: 1024px) {
+    .uphd{
+        margin-top: 80px;
+        margin-left: 70px;
+        font-size: 16px;
+    }
+    .pwdframe{
+        margin-top: 70px;
+    }
+    .Cpwd{
+            width: 180px;
+            height: 16px;
+            margin-left: 40px;
+            margin-top: 15px;
+    }
+    
+     .pwdbtn{
+        margin-left: 40px;
+        width: 200px;
+        height: 35px;
+     }
+     .pwdimg{
+        margin-top: 100px;
+        margin-right: 70px;
+        width: 300px;
+    }
+ }
+ @media (max-width: 768px) {
+    .Cpwd{
+        margin-left: 230px;
+}
+.uphd{
+    margin-left: 270px; 
+}
+.pwdbtn{
+    margin-left: 230px;
+}
+    .pwdframe{
+      align-items: center;
+    }
+    .pwdframe1{
+        align-items: center;
+        height: 290px;
+        margin-left: 40px;
+      }
+      .pwdimg{
+        margin-top: 40px;
+        margin-left: 220px;
+        width: 300px;
+        align-items: center;
+    }
+ }
+ @media (max-width: 425px){
+    .uphd{
+        margin-left: 60px; 
+    }
+    .pwdframe{
+            margin-right: 70px;
+    }
+    .pwdframe1{
+        height: 260px;
+       margin-left: 10px;
+      }
+      .Cpwd{
+    margin-left: 20px;
+}
+.pwdbtn{
+    margin-left: 20px;
+}
+.pwdimg{
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 240px;
+}
+ }
+ @media (max-width: 375px){
+    .uphd{
+        margin-left: 13px; 
+    }
+    .Cpwd{
+        margin-left: 0px;
+    }
+    .pwdbtn{
+        margin-left: 0px;
+    }
+    .pwdimg{
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 240px;
+    }
+    }
+    

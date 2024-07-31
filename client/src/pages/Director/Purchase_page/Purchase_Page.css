@@ -1,0 +1,116 @@
+.first-G-WH {
+    width: 96%;
+    height: 246px;
+    background: #53c352;
+  }
+  .first-G-para-WH {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: start;
+    color: #ffffff;
+    width: 60%;
+  }
+.purchase-div{
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    background: #FEFEFF;
+    align-self: center;
+    border: 1px solid #53C352;
+    margin-top: 100px;
+}
+.purchase-div-hd{
+    padding-top: 5%;
+    padding-left: 2%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 39px
+}
+.follow{
+    display: flex;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 90px;
+    height: 34px;
+    border: none;
+    background: #53C352;
+    border-radius: 8px; 
+}
+.contacts{
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+width: auto;
+height: auto;
+padding-left: 65%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #53C352;
+}
+.purchase_img1{
+position: absolute;
+left: 14.55%;
+right: 10.06%;
+top: 103.03%;
+bottom: -19.42%;
+width: 110px;
+transform: rotate(-5.4deg);
+}
+.purchase_img3{
+position: absolute;
+width: 94.14px;
+height: 94.14px;
+left: 1103px;
+top: 430.12px;
+
+transform: rotate(-18.66deg);
+}
+.info-div{
+    justify-content: center;
+   padding-left: 30%;
+}
+.info{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 40px;
+color: #000000;
+}
+.paybtn{
+    border: none;
+    color: #ffff;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 40px;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    background: #53C352;
+    border-radius: 5px; 
+}
+.Dwnbtn{
+    border:2px solid #53C352;
+    color: #53C352;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 310px;
+    width: 110px;
+    height: 30px;
+    background: #ffff;
+    border-radius: 5px; 
+}

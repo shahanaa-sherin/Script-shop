@@ -1,0 +1,375 @@
+.first-G-WH {
+    width: 96%;
+    height: 246px;
+    background: #53c352;
+  }
+  .first-G-para-WH {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: start;
+    color: #ffffff;
+    width: 60%;
+  }
+.director_Hd{
+margin-top: 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px
+}
+.main_card{
+    display: flex;
+    height:auto;
+    flex-wrap: wrap;
+}
+.dir_card{
+    margin-left: 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background: #FEFEFF;
+    border: 1px solid #53C352;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-shadow: #000000
+    25%;
+}
+.home_name{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.alex_btn{
+padding: 4px 10px;
+color: #ffff;
+font-weight: 400;
+border: none;
+width: 69px;
+height: 34px;
+margin-left: 14px;
+margin-top: 100px;
+background: #53C352;
+border-radius: 5px;
+}
+
+.purchase{
+    padding: 10px 10px;
+    color: #ffff;
+    font-weight: 400;
+    border: none;
+    width: 79px;
+    height: 34px;
+    margin-left: 120px;
+    margin-top: 100px;
+    background: #53C352;
+    border-radius: 5px;
+}
+@media (max-width: 1600px) {
+    .dir_card{
+        width: 370px;
+        height: 340px;
+    }
+    .purchase{
+        margin-left: 160px;
+        margin-top: 110px;
+    }
+}
+@media (max-width: 1440px) {
+    .dir_card{
+        width: 340px;
+        height: 310px;
+    }
+    .purchase{
+        margin-left: 160px;
+        margin-top: 110px;
+    }
+}
+@media (max-width: 1325px) {
+    .director_Hd{
+       margin-left: 0px;
+       font-size: 20px
+    }
+}
+@media (max-width: 1200px) {
+    .director_Hd{
+       margin-left: 0px;
+       font-size: 20px
+    }
+    .dir_card{
+        width: 300px;
+        height: 300px;
+    }
+    .purchase{
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1024px) {
+    .director_Hd{
+      margin-left: 0px;
+       font-size: 20px
+    }
+    .dir_card{
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .purchase{
+        margin-left:120px;
+        margin-top: 100px;
+    }
+}
+ @media (max-width: 1010px) {
+    .director_Hd{
+       font-size: 19px;
+       margin-left: 0px;
+    }
+    .dir_card{
+        width: 280px;
+        height: 280px;
+        margin-left: 10px;
+    }
+} 
+@media (max-width: 950px) {
+    .director_Hd{
+       font-size: 19px;
+       margin-left: 0px;
+    }
+    .dir_card{
+        width: 270px;
+        height: 270px;
+        margin-left: 10px;
+    }
+    .home_name{
+        margin-top: 90px;
+        font-size: 20px;
+    }
+    .purchase{
+        margin-left: 90px;
+    }
+} 
+@media (max-width: 899px) {
+    .director_Hd{
+        margin-left: 0px;
+    }
+    .dir_card{
+        width: 240px;
+        height: 240px;
+        margin-left: 10px;
+    }
+    .home_name{
+        margin-top: 100px;
+        font-size: 20px;
+    }
+    .alex_btn{
+        margin-top: 10px;
+        }
+    .purchase{
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+} 
+
+ @media (max-width: 768px) {
+      .first-G-para-WH {
+        width: 70%;
+      }
+    .director_Hd{
+        font-size: 20px
+     }
+     .dir_card{
+        width: 290px;
+        height: 290px;
+    }
+    .home_name{
+        margin-top: 130px;
+        font-size: 20px;
+    }
+    .alex_btn{
+        margin-top: 80px;
+        }
+    .purchase{
+        margin-top: 60px;
+        margin-left: 110px;
+    }
+}
+@media (max-width: 654px) {
+    .first-G-para-WH {
+        width: 80%;
+      }
+}
+@media (max-width: 630px) {
+    .director_Hd{
+        /* margin-right:270px; */
+        font-size: 18px
+     }
+     .dir_card{
+        width: 270px;
+        height: 270px;
+    }
+    .home_name{
+        margin-top: 120px;
+        font-size: 20px;
+    }
+    .alex_btn{
+        margin-top: 70px;
+        }
+    .purchase{
+        margin-top: 60px;
+        margin-left: 90px;
+    }
+}
+@media (max-width: 590px) {
+    .first-G-para-WH {
+        width: 85%;
+      }
+    .director_Hd{
+        font-size: 18px
+     }
+     .dir_card{
+        width: 250px;
+        height: 250px;
+    }
+    .home_name{
+        margin-top: 100px;
+        font-size: 20px;
+    }
+    .purchase{
+        margin-left: 70px;
+    }
+}
+@media (max-width: 540px) {
+      .first-G-para-WH {
+        width: 80%;
+        font-size: 15px;
+      }
+    .director_Hd{
+        font-size: 17px
+     }
+     .dir_card{
+        width: 230px;
+        height: 230px;
+    }
+    .home_name{
+        margin-top: 80px;
+        font-size: 20px;
+    }
+    .purchase{
+        margin-left: 60px;
+    }
+}
+@media (max-width: 500px) {
+    .first-G-para-WH {
+      width: 80%;
+      font-size: 15px;
+    }
+  .director_Hd{
+      font-size: 16px
+   }
+   .dir_card{
+      width: 210px;
+      height: 210px;
+  }
+  .home_name{
+    margin-top: 60px;
+    font-size: 20px;
+}
+  .purchase{
+      margin-left: 40px;
+  }
+}
+@media (max-width: 488px) {
+    .first-G-para-WH {
+      width: 90%;
+      font-size: 15px;
+    }
+  .director_Hd{
+      font-size: 16px
+   }
+   .dir_card{
+      width: 210px;
+      height: 210px;
+  }
+  .purchase{
+      margin-left: 40px;
+  }
+}
+@media (max-width: 450px) {
+    .first-G-para-WH {
+      width: 90%;
+      font-size: 15px;
+    }
+  .director_Hd{
+      font-size: 15px
+   }
+   .dir_card{
+      width: 200px;
+      height: 200px;
+  }
+  .purchase{
+      margin-left: 30px;
+  }
+}
+@media (max-width: 433px) {
+    .first-G-para-WH {
+        width: 90%;
+        font-size: 14px;
+      }
+    }
+@media (max-width: 425px) {
+    .first-G-para-WH {
+        width: 90%;
+        font-size: 14px;
+      }
+    .director_Hd{
+        margin-left:0px;
+        font-size: 15px;
+     }
+     .dir_card{
+        width: 290px;
+        height: 290px;
+    }
+    .home_name{
+        margin-top: 120px;
+        font-size: 20px;
+    }
+    .purchase{
+        margin-top: 90px;
+        margin-left:110px;
+    }
+}
+ @media (max-width: 375px) {
+        .first-G-para-WH {
+            width: 85%;
+            font-size: 14px;
+          }
+          .first-G-WH {
+            height: 276px;
+}
+ }
+ @media (max-width: 339px) {
+    .first-G-para-WH {
+        width: 85%;
+        font-size: 14px;
+      }
+      .first-G-WH {
+        height: 300px;
+}
+}
+@media (max-width: 325px) {
+    .first-G-para-WH {
+        width: 87%;
+        font-size: 14px;
+      }
+      .first-G-WH {
+        height: 320px;
+}
+.dir_card{
+    width: 270px;
+    height: 270px;
+}
+}   

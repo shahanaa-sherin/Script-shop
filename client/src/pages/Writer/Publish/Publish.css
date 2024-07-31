@@ -1,0 +1,93 @@
+.publish-div{
+    margin-top: 130px;
+    width: 100%;
+}
+.Publish-heading{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.second-para {
+  font-size: 16px;
+  font-weight: 600;
+  width: 250px;
+  margin-left: 180px;
+  margin-top: 80px;
+}
+.publish-img{
+    margin-top: 70px;
+    width: 435px;
+    height: 311px;
+}
+.button-submit-Writer{
+    width: 340px;
+    height: 45px;
+    background: #53c352;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 22px;
+    color: #ffffff;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+.Publish-form{
+    width: 340px;
+}
+.Publish-Writer{
+    width: 340px;
+    height: 45px;
+    background: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #959595;
+    border-radius: 10px;
+    border: 1px solid #53c352;
+    margin-top: 15px;
+    padding-left: 17px;
+    padding-right: 15px;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fileLabel{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32%;
+    padding-right: 32%;
+}
+.nameLabel{
+    display: inline-flex;
+    align-items: center;
+}
+.Publish-Writer-name{
+    width: 340px;
+    height: 45px;
+    background: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 2px;
+    border: 1px solid #53c352;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-span{
+    margin-top: 15px;
+    display: flex;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #595959;
+}

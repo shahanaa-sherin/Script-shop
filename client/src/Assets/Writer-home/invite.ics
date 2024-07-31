@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Hemalatha Yesudhasan:mailto:hemalatha@usistech.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=maheshboop
+ athi2001@gmail.com:mailto:maheshboopathi2001@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Sundarraj 
+ Ponnulingam:mailto:sundarraj@usistech.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Umarfaruk 
+ Mohammed:mailto:umarfaruk@usistech.com
+DESCRIPTION;LANGUAGE=en-US:You are requested to attend the interview on tim
+ e.\n\n\n\n________________________________________________________________
+ ________________\nMicrosoft Teams meeting\nJoin on your computer\, mobile 
+ app or room device\nClick here to join the meeting<https://teams.microsoft
+ .com/l/meetup-join/19%3ameeting_N2FmYTM1ZDgtZTVmOS00NDJiLTgwNGEtMjI1ZDU1Zj
+ IxNDZl%40thread.v2/0?context=%7b%22Tid%22%3a%22db2e9aa6-9549-41e2-90f9-ecf
+ 58998a0c2%22%2c%22Oid%22%3a%223886030a-3dfd-42b9-99f4-c2b8f43cafe6%22%7d>\
+ nMeeting ID: 437 846 563 109\nPasscode: fiF7Ah\nDownload Teams<https://www
+ .microsoft.com/en-us/microsoft-teams/download-app> | Join on the web<https
+ ://www.microsoft.com/microsoft-teams/join-a-meeting>\nLearn More<https://a
+ ka.ms/JoinTeamsMeeting> | Meeting options<https://teams.microsoft.com/meet
+ ingOptions/?organizerId=3886030a-3dfd-42b9-99f4-c2b8f43cafe6&tenantId=db2e
+ 9aa6-9549-41e2-90f9-ecf58998a0c2&threadId=19_meeting_N2FmYTM1ZDgtZTVmOS00N
+ DJiLTgwNGEtMjI1ZDU1ZjIxNDZl@thread.v2&messageId=0&language=en-US>\n_______
+ _________________________________________________________________________\
+ n
+UID:040000008200E00074C5B7101A82E0080000000086A291CFDC63D901000000000000000
+ 010000000F004974EE530FD4AA5850B7083D126A0
+SUMMARY;LANGUAGE=en-US:Interview With Mahesh Boopathi  from uSiS Technologi
+ es
+DTSTART;TZID=India Standard Time:20230401T143000
+DTEND;TZID=India Standard Time:20230401T173000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230331T142642Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2121531270
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_N2FmYTM1ZDgtZTVmOS00NDJiLTgwNGEtMjI1ZDU1ZjIxNDZl%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22db2e9aa6-9549-41e2-90f9-ecf58998a0c2%22%2c%22O
+ id%22%3a%223886030a-3dfd-42b9-99f4-c2b8f43cafe6%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/db2e9aa6-9549-41e2-90f9-ecf58998a0c2/3886030a-3dfd-42b9-99f4-c
+ 2b8f43cafe6/19_meeting_N2FmYTM1ZDgtZTVmOS00NDJiLTgwNGEtMjI1ZDU1ZjIxNDZl@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_N2FmYTM1ZDgtZTVmOS00NDJ
+ iLTgwNGEtMjI1ZDU1ZjIxNDZl@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:hemalatha@usistech.com\;gruu\;op
+ aque=app:conf:focus:id:teams:2:0!19:meeting_N2FmYTM1ZDgtZTVmOS00NDJiLTgwNG
+ EtMjI1ZDU1ZjIxNDZl-thread.v2!3886030a3dfd42b999f4c2b8f43cafe6!db2e9aa69549
+ 41e290f9ecf58998a0c2
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

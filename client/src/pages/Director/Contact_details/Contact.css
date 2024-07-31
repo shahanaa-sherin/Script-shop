@@ -1,0 +1,74 @@
+.first-G-WH {
+    width: 96%;
+    height: 246px;
+    background: #53c352;
+  }
+  .first-G-para-WH {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: start;
+    color: #ffffff;
+    width: 60%;
+  }
+  .contacts-div{
+    box-sizing: border-box;
+    height: 431px;
+    width: 616px;
+    border-radius: 5px;
+    background: #FEFEFF;
+    border: 1px solid #53C352;
+    margin-top: 100px;
+}
+.contacts-div-hd{
+padding-top: 5%;
+padding-left: 2%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+.info{
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.info-contacts-div{
+  margin-top: 120px;
+  padding-left: 17%;
+}
+.contactsimg{
+position: absolute;
+width: 100px;
+left: 11.1%;
+right: 5.57%;
+top: 60.8%;
+transform: matrix(0.9, -0.43, 0.43, 0.9, 0);
+}
+.contactsimg1{
+ width: 100px;
+ position: absolute;
+left: 84.37%;
+top: 59.41%;
+bottom: 9.38%;
+}
+.contactsimg2{
+  width: 100px;
+  position: absolute;
+left: 11.49%;
+right: -30.87%;
+top: 116.08%;
+bottom: 12.04%;
+transform: rotate(27.41deg);
+}
+.contactsimg3{
+  position: absolute;
+width: 156px;
+height: 156px;
+left: 1005px;
+top: 860px;
+transform: rotate(-4.57deg);
+}

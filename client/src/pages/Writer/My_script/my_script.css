@@ -1,0 +1,104 @@
+.hdscript{
+    margin-top: 40px;
+    margin-left: 210px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+}
+.card{
+    display: flex;
+    height: auto;
+    width: 1100px;
+    flex-wrap: wrap;
+    padding-left: 170px;
+    padding-bottom: 100px;
+}
+.no-script{
+    margin-left: 40px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 300px;
+    background: #FEFEFF;
+    border: 1px solid #53C352;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-script-h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: #000000;
+}
+.matrixname{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.matrixcard{
+    margin-left: 40px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background: #FEFEFF;
+    border: 1px solid #53C352;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.scriptbtn{
+padding: 10px 8px;
+color: #ffff;
+font-weight: 400;
+border: none;
+width: 120px;
+height: 38px;
+margin-left: 160px;
+margin-top: 100px;
+background: #53C352;
+border-radius: 5px;
+}
+
+/* responsive */
+
+@media (max-width: 1440px)  {
+    .hdscript{
+        margin-left: 180px;       
+    }
+    .matrixcard{
+        margin-top: 16px;
+        width: 350px;
+        height: 350px;
+    }
+    .matrixname{
+        margin-top: 160px;
+        font-size: 23px;
+    }.scriptbtn{
+        margin-left: 210px;
+        }
+        
+}
+@media (max-width: 1024px)  {
+    .hdscript{
+        margin-left: 70px;      
+        font-size: 24px 
+    }
+    .matrixcard{
+        width: 280px;
+        height: 280px;
+    }
+    .matrixname{
+        margin-top: 120px;
+        font-size: 21px;
+    }.scriptbtn{
+        margin-left: 140px;
+        margin-top: 80px;
+        }
+        
+}
